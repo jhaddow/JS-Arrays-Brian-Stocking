@@ -253,10 +253,13 @@ var longest = function(arr1, arr2){
 
   //Code Here
 var both = function(arr1, arr2){
-  
+  var arr3 = [];
   if (arr1< arr2){
-    var arr3 = arr1.slice();}
-  else {var arr3 = arr2.slice();}
+    arr3 = arr1.slice();
+  }
+  else {
+    arr3 = arr2.slice();
+  }
   return arr3;
 }
     
