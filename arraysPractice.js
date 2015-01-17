@@ -5,9 +5,8 @@ var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item the given array.
 
   //Code Here
-var first = function(){
-  var result = arr.shift();
-    return result;
+var first = function(array){
+  return array[0]
 }
 
 //Next problem
@@ -19,9 +18,8 @@ var arr = [40,50,60];
 
 
   //Code Here
-var last = function(){
-  var result = arr.pop();
-    return result;
+var last = function(array){
+ return array[array.length -1]
 }
 
 //Next Problem
