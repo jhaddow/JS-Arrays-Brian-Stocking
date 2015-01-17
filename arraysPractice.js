@@ -48,11 +48,15 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 var reversedLooper = function(arr){
   letters.reverse();
     for(var i = 0; i < arr.length; i++){
-      alert(arr[i]);
+      alert(arr[i ]);
     }
 }
 
-
+var reversedLooper = function(){
+  for (var i = arr.length; i > 0; i--){
+    alert(arr[i - 1])
+  }
+}
 //Next Problem
 
 
