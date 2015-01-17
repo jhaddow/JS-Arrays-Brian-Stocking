@@ -136,6 +136,8 @@ var str = 'this is my sentence';
 
 //Code Here
 var reverse = function(arr) { //how else might you have written this code? (hint: method chaining)
+                              //how might you change the names of the variables to make it more readable?
+                              //(hint: on line 141, are you splitting a string or an array? Also, does the function accept a string or an array?)
     arr = arr.split('');
     arr.reverse();
     arr = arr.join('');
@@ -168,8 +170,6 @@ var removeItem = function(arr, item) {
             arr.splice([i], 1);  //do we need to continue the loop after removing the item? 
                                 //(Hint: you can use break; to stop a loop, or return to stop a function)
         }
-
-
     }
     return arr;
 
